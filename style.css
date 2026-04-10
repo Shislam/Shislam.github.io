@@ -59,3 +59,19 @@ nav{
     text-align: center;
     font-size: 2rem;
 }
+
+.container{
+    display:flex;
+    flex-direction: column;
+}
+
+
+.project-image{
+    float: left;
+    width: 40%;
+    margin-right: 10px;
+}
+.portrait{
+    width: 40%;
+    align-self: center;
+}
