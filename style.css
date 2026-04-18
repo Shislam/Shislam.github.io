@@ -86,19 +86,7 @@ nav{
 }
 
 /* Applies when the viewport is 600px wide or less */
-@media screen and (max-width: 670px){
-    .portrait-image-rounded{
-    display: inline;
-    float: none;
-    width: 60%;
-    /* margin: 20 px; */
-    box-shadow: 0px 0px 20px lightgrey;
-    margin-top: 40px;
-    margin-bottom: 20px;
 
-    border-radius: 100%;
-    }
-}
 
 @media screen and (max-width: 900px) {
   
@@ -122,5 +110,3 @@ nav{
     text-align: center;
   }
 }
-
-
