@@ -70,7 +70,7 @@ nav{
 
 .project-image{
     float: left;
-    width: 40%;
+    width: 25%;
     margin-right: 10px;
 }
 .portrait-image{
@@ -90,7 +90,13 @@ nav{
 
 
 @media screen and (max-width: 900px) {
-  
+  .project-label{
+    text-align: center;
+    /* display: inline-block; */
+  }
+  .project-image{
+    display: none;
+  }
   .portrait-image-rounded{
     display: inline;
     float: none;
